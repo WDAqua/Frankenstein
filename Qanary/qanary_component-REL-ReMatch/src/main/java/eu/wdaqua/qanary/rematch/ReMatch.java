@@ -50,23 +50,21 @@ public class ReMatch extends QanaryComponent {
 		logger.info("process: {}", myQanaryMessage);
 		// TODO: implement processing of question
 		QanaryUtils myQanaryUtils = this.getUtils(myQanaryMessage);
-		  QanaryQuestion<String> myQanaryQuestion = new QanaryQuestion(myQanaryMessage);
-	      String myQuestion = myQanaryQuestion.getTextualRepresentation();
-	      ArrayList<Link> links = new ArrayList<Link>();
-
-	        logger.info("Question: {}", myQuestion);
-	        //STEP2
-	        HttpClient httpclient = HttpClients.createDefault();
-	        myQuestion = java.net.URLEncoder.encode(myQuestion, "UTF-8").replaceAll("\\+", "%20");
-	        HttpGet httpget = new HttpGet("http://94.130.104.232:8081/"+myQuestion);
-	        try {
-	        HttpResponse response = httpclient.execute(httpget);
+		QanaryQuestion<String> myQanaryQuestion = new QanaryQuestion(myQanaryMessage);
+	    String myQuestion = myQanaryQuestion.getTextualRepresentation();
+	    ArrayList<Link> links = new ArrayList<Link>();
+	    logger.info("Question: {}", myQuestion);
+	    //STEP2
+	    HttpClient httpclient = HttpClients.createDefault();
+	    myQuestion = java.net.URLEncoder.encode(myQuestion, "UTF-8").replaceAll("\\+", "%20");
+	    HttpGet httpget = new HttpGet("<URI of the Component>"+myQuestion);
+	    try {
+	    	HttpResponse response = httpclient.execute(httpget);
 	        HttpEntity entity = response.getEntity();
 	        if (entity != null) {
 	        	InputStream instream = entity.getContent();
-	           // String result = getStringFromInputStream(instream);
+	        	// String result = getStringFromInputStream(instream);
 	            String text = IOUtils.toString(instream, StandardCharsets.UTF_8.name());
-	           
 	            logger.info("Question: {}", text);
 	            JSONObject jsonObject = new JSONObject(text);
 	            //ArrayList<String> list = new ArrayList<String>(jsonObject.keySet());
