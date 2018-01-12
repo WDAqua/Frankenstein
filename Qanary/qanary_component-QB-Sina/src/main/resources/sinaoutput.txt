@@ -1,0 +1,8 @@
+Hi Saeedeh
+testing is gonna start
+ uri of path http://dbpedia.org/resource/Germanytype 10
+ single entity 
+template: select * where {     <http://dbpedia.org/resource/Germany>   ?p   ?v0.  }
+template:     Germany      ?p     ?v0  .  
+sparql printing list.....select * where {     <http://dbpedia.org/resource/Germany>   ?p   ?v0.  }
+ list of final templates:   [select * where {     <http://dbpedia.org/resource/Germany>   ?p   ?v0.  }]

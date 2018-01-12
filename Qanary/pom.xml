@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>eu.wdauqa.qanary</groupId>
+  <artifactId>mvn.reactor</artifactId>
+  <version>0.1.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <modules>
+    <module>qanary_pipeline-template</module>
+    <module>qanary_component-template</module>
+    <module>qanary_component-ASR-kaldi</module>
+    <module>qanary_component-LD-Shuyo</module>
+    <module>qanary_component-NER-stanford</module>
+    <module>qanary_component-NER-DBpedia-Spotlight</module>
+    <module>qanary_component-NER-FOX</module>
+    <module>qanary_component-NED-AGDISTIS</module>
+    <module>qanary_component-NED-DBpedia-Spotlight</module>
+    <module>qanary_component-NERD-Alchemy</module>
+    <module>qanary_component-NERD-Lucene-Linker</module>
+    <module>qanary_monolitic-wrapper</module>
+    <module>qald-evaluator</module>
+    <module>batmanquestion.annotator</module>
+    <module>qa.qanary_component-MyComponent</module>
+    <module>qanary_component-NER-EntityClassifier</module>
+    <module>qanary_component-NER-EntityClassifier2</module>
+    <module>qanary_component-NER-Babelfy</module>
+    <module>qanary_component-NED-Babelfy</module>
+    <module>qanary_component-NER-TextRazor</module>
+    <module>qanary_component-NER-MeaningCloud</module>
+    <module>qanary_component-NER-Dandelion</module>
+    <module>qanary_component-NED-Dandelion</module>
+    <module>qanary_component-NER-tagme</module>
+    <module>qanary_component-NED-tagme</module>
+    <module>qanary_component-NER-ambiverse</module>
+    <module>qanary_component-NER-Aylien</module>
+    <module>qanary_component-NED-Aylien</module>
+    <module>qanary_component-NER-Ontotext</module>
+    <module>qanary_component-NED-Ontotext</module>
+    <module>qanary_component-REL-RelationLinker1</module>
+    <module>qanary_component-QB-Sina</module>
+    <module>qanary_component-TGΜM</module>
+    <module>qanary_component-NED-Ambiverse</module>
+    
+    <module>qanary_component-REL-RELNLIOD</module>
+    <module>qanary_component-CLS-CLSNLIOD</module>
+    <module>qanary_component-QB-SparqlExecuter</module>
+    <module>qanary_component-REL-ReMatch</module>
+    <module>qanary_component-REL-RelationLinker2</module>
+    <module>qa.qanary_component-AnnotationofSpotClass-tgm</module>
+    <module>qa.qanary_component-AnnotationofSpotProperty-tgm</module>
+    <module>qa.qanary_component-DiambiguationClass-OKBQA</module>
+    <module>qa.qanary_component-DiambiguationProperty-OKBQA</module>
+    <module>qa.qanary_component-QueryBuilder</module>
+    <module>qanary_component-NED-MeaningCloud</module>
+  </modules>
+</project>

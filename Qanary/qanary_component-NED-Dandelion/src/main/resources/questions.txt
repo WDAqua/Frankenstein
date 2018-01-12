@@ -1,0 +1,4 @@
+who is Akhilesh Vyas ? Answer: []
+who is the wife of barack obama? Answer: [{"begin":11,"end":16,"link":"http://dbpedia.org/resource/Marriage"},{"begin":19,"end":32,"link":"http://dbpedia.org/resource/Barack_Obama"}]
+What tv series can be said to be related to the sarah jane adventure and dr who confidentia ? Answer: [{"begin":5,"end":15,"link":"http://dbpedia.org/resource/Television_program"},{"begin":48,"end":59,"link":"http://dbpedia.org/resource/Sarah_Jane_Smith"},{"begin":59,"end":69,"link":"http://dbpedia.org/resource/Adventure"},{"begin":73,"end":80,"link":"http://dbpedia.org/resource/Doctor_Who"}]
+what is Germany ? Answer: [{"begin":8,"end":16,"link":"http://dbpedia.org/resource/Germany"}]

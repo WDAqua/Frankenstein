@@ -1,0 +1,500 @@
+    4  }" "https://api.ambiverse.com/v1/entitylinking/analyze"
+    5  curl --compressed -X POST --header "Content-Type: application/json" --header "Accept: application/json" --header "Authorization: 9c295e8e96eb8b4742b5bfaf7f3b10a01c88c0e4" -d "{
+    6    \"docId\": \"ma-alibaba-investments\",
+    7    \"text\": \"Ma founded Alibaba in Hangzhou with investments from SoftBank and Goldman.\",
+    8    \"language\": \"en\"
+    9  }" "https://api.ambiverse.com/v1/entitylinking/analyze"
+   10  curl --compressed -X POST --header "Content-Type: application/json" --header "Accept: application/json" --header "Authorization: 9c295e8e96eb8b4742b5bfaf7f3b10a01c88c0e4" -d "{
+   11    \"docId\": \"ma-alibaba-investments\",
+   12    \"text\": \"Ma founded Alibaba in Hangzhou with investments from SoftBank and Goldman.\",
+   13    \"language\": \"en\"
+   14  }" "https://api.ambiverse.com/v1/entitylinking/analyze"
+   15  clear
+   16  ls 
+   17  cd .
+   18  ls
+   19  cd ..
+   20  ls
+   21  cd qanary_qa/
+   22  mvn clean install -DskipDockerBuild
+   23  cd qanary_component-NER-ambiverse/
+   24  mvn clean install -DskipDockerBuild
+   25  mvn clean install -DskipDockerBuild
+   26  mvn clean install -DskipDockerBuild -e
+   27  clear
+   28  mvn clean install -DskipDockerBuild -e
+   29  mvn clean install -DskipDockerBuild -e
+   30  cd ..
+   31  mvn clean install -DskipDockerBuild
+   32  mvn clean install -DskipDockerBuild
+   33  cd qanary_component-NER-ambiverse/
+   34  mvn clean install 
+   35  mvn clean install 
+   36  mvn clean install 
+   37  mv clean install -DskipDockerBuild
+   38  mvn clean install -DskipDockerBuild
+   39  history
+   40  history | grep -ri jar
+   41  clear
+   42  cd ..
+   43  mvn clean install -DskipDockerBuild
+   44  history | stardog
+   45  history | grep -ri stardog
+   46  mvn clean install -DskipDockerBuild
+   47  mvn clean install -DskipDockerBuild
+   48  mvn clean install -DskipDockerBuild
+   49  mvn clean install -DskipDockerBuild
+   50  mvn archetype:generate        -DarchetypeGroupId=eu.wdaqua.qanary.component        -DarchetypeArtifactId=qa.qanarycomponent-archetype        -DarchetypeVersion=0.1.1        -DgroupId=eu.wdaqua.qanary.component        -DartifactId=qanary_component-TESTWRAP        -Dversion=0.1.0        -Dpackage=eu.wdaqua.qanary.testwrap        -Dclassname=TestWrap        -DinteractiveMode=false
+   51  clear
+   52  cd ..
+   53  ls
+   54  cd ..
+   55  ls
+   56  cd stardog-4.1.3/
+   57  ls
+   58  cd bin/
+   59  ls
+   60  echo $STAR_DOG
+   61  cat ~/.bash_profile 
+   62  echo $STARDOG_HOME
+   63  clear
+   64  ./stardog-admin server start
+   65  java -jar /Volumes/Vyas-HD/office_fraunhofer/workspace/qanary_qa/qanary_pipeline-template/target/qa.pipeline-1.1.0.jar
+   66  java -jar  /Volumes/Vyas-HD/office_fraunhofer/workspace/qanary_qa/qanary_component-NER-ambiverse/target/qanary_component-NER-ambiverse-0.0.1.jar
+   67  curl -X POST --header "Content-Type: application/x-www-form-urlencoded" --header "Accept: application/json" -d "client_id=5e15e933&client_secret=a09256c925adc9e2279435038df9d55e&grant_type=client_credentials" "https://api.ambiverse.com/oauth/token"
+   68  curl -X POST --header "Content-Type: application/json" --header "Accept: application/json" --header "Authorization: 3308d4227ed85baef565ef3b0638568cf3c0103d" -d "{
+   69    \"text\": \"Who is the wife of Barack Obama ?\",
+   70    \"language\": \"en\"
+   71  }" "https://api.ambiverse.com/v1/entitylinking/analyze"
+   72  curl -X POST --header "Content-Type: application/json" --header "Accept: application/json" --header "Authorization: 3308d4227ed85baef565ef3b0638568cf3c0103d" -d "{
+   73    \"text\": \"Who is the wife of Barack Obama ?\",
+   74    \"language\": \"en\"
+   75  }" --compressed "https://api.ambiverse.com/v1/entitylinking/analyze"
+   76  clear
+   77  officeWork
+   78  ls
+   79  cd ..
+   80  ls
+   81  stardog-4.1.3/
+   82  ls
+   83  ./stardog-4.1.3/bin/stardog-admin server start
+   84  officeWork
+   85  cd ..
+   86  ./stardog-4.1.3/bin/stardog-admin server start
+   87  ./stardog-4.1.3/bin/stardog-admin server stop
+   88  ./stardog-4.1.3/bin/stardog-admin server stop
+   89  ./stardog-4.1.3/bin/stardog-admin server start
+   90  echo $STARDOG_HOME
+   91  ./stardog-4.1.3/bin/stardog-admin server stop
+   92  ./stardog-4.1.3/bin/stardog-admin server start
+   93  ./stardog-4.1.3/bin/stardog-admin server stop
+   94  rm /Volumes/Vyas-HD/office_fraunhofer/stardog-4.1.3/system.lock
+   95  ./stardog-4.1.3/bin/stardog-admin server stop
+   96  ./stardog-4.1.3/bin/stardog-admin server start
+   97  ls
+   98  cd workspace/
+   99  ls
+  100  cd qanary_qa/
+  101  mvn archetype:generate        -DarchetypeGroupId=eu.wdaqua.qanary.component        -DarchetypeArtifactId=qa.qanarycomponent-archetype        -DarchetypeVersion=0.1.0        -DgroupId=eu.wdaqua.qanary.component        -DartifactId=qanary_component-NED-AMBIVERSE        -Dversion=0.1.0        -Dpackage=eu.wdaqua.qanary.ned.ambiverse        -Dclassname=AmbiverseNed        -DinteractiveMode=false
+  102  mvn archetype:generate        -DarchetypeGroupId=eu.wdaqua.qanary.component        -DarchetypeArtifactId=qa.qanarycomponent-archetype        -DarchetypeVersion=0.1.1        -DgroupId=eu.wdaqua.qanary.component        -DartifactId=qanary_component-NED-AMBIVERSE        -Dversion=0.1.0        -Dpackage=eu.wdaqua.qanary.ned.ambiverse        -Dclassname=AmbiverseNed        -DinteractiveMode=false
+  103  mvn archetype:generate        -DarchetypeGroupId=eu.wdaqua.qanary.component        -DarchetypeArtifactId=qa.qanarycomponent-archetype        -DarchetypeVersion=0.1.1        -DgroupId=eu.wdaqua.qanary.component        -DartifactId=qanary_component-NED-Ambiverse        -Dversion=0.1.0        -Dpackage=eu.wdaqua.qanary.ambiverse        -Dclassname=AmbiverseNed        -DinteractiveMode=false
+  104  mvn archetype:generate        -DarchetypeGroupId=eu.wdaqua.qanary.component        -DarchetypeArtifactId=qa.qanarycomponent-archetype        -DarchetypeVersion=0.1.1        -DgroupId=eu.wdaqua.qanary.component        -DartifactId=qanary_component-NED-Ambiverse        -Dversion=0.1.0        -Dpackage=eu.wdaqua.qanary.ambiverse        -Dclassname=AmbiverseNed        -DinteractiveMode=false
+  105  mvn archetype:generate        -DarchetypeGroupId=eu.wdaqua.qanary.component        -DarchetypeArtifactId=qa.qanarycomponent-archetype        -DarchetypeVersion=0.1.1        -DgroupId=eu.wdaqua.qanary.component        -DartifactId=qanary_component-NED-Ambiverse        -Dversion=0.1.0        -Dpackage=eu.wdaqua.qanary.ambiverse        -Dclassname=AmbiverseNed        -DinteractiveMode=false
+  106  mvn archetype:generate        -DarchetypeGroupId=eu.wdaqua.qanary.component        -DarchetypeArtifactId=qa.qanarycomponent-archetype        -DarchetypeVersion=0.1.1        -DgroupId=eu.wdaqua.qanary.component        -DartifactId=qanary_component-NED-Ambiverse        -Dversion=0.1.0        -Dpackage=eu.wdaqua.qanary.ambiverse        -Dclassname=AmbiverseNed        -DinteractiveMode=false
+  107  jps
+  108  cd ..
+  109  ls
+  110  git clone https://github.com/shekarpour/SINA---Disambiguation.git
+  111  ls
+  112  cd SINA---Disambiguation/
+  113  grep -ri main .
+  114  ls
+  115  cd bin/
+  116  ls
+  117  ls
+  118  cd ..
+  119  ls
+  120  cd Disambiguation/
+  121  ls
+  122  java -o MainTest.java 
+  123  java MainTest.java 
+  124  ls
+  125  cd ..
+  126  java --h
+  127  java -h
+  128  java MainTest
+  129  java MainTest.java
+  130  ls
+  131  java MainTest
+  132  ls
+  133  java Disambiguation.MainTest 
+  134  java disambiguation.MainTest 
+  135  java disambiguation.MainTest 
+  136  java disambiguation.MainTest 
+  137  java disambiguation.MainTest.java
+  138  ls
+  139  cd Disambiguation/
+  140  ls
+  141  java disambiguation.MainTest.java
+  142  java disambiguation.MainTest
+  143  java-classpath .  disambiguation.MainTest
+  144  java -classpath .  disambiguation.MainTest
+  145  ls
+  146  cd ..
+  147  ls
+  148  java -classpath TestMainRun
+  149  java -classpath . TestMainRun
+  150  java -classpath . TestMainRun
+  151  javac TestMainRun.java 
+  152  javac TestMainRun.java 
+  153  cd ..
+  154  javac TestMainRun.java 
+  155  ls
+  156  cd DI
+  157  cd Disam/
+  158  ls
+  159  cd disambiguation/
+  160  java -classpath . TestMainRun
+  161  java -classpath . TestMainRun.java
+  162  ls
+  163  java -classpath . TestMainRun.java
+  164  javac -classpath . TestMainRun.java
+  165  javac -classpath . TestMainRun.java
+  166  javac -classpath . TestMainRun.java
+  167  javac -classpath . TestMainRun.java
+  168  javac -classpath . TestMainRun.java
+  169  javac -classpath . TestMainRun.java
+  170  javac -classpath . TestMainRun.java
+  171  javac -classpath . TestMainRun.java
+  172  javac -classpath . TestMainRun.java
+  173  javac -classpath . TestMainRun.java
+  174  javac -classpath . TestMainRun.java
+  175  cd ..
+  176  officeWork 
+  177  ls
+  178  git clone https://github.com/shekarpour/SINA---Disambiguation.git
+  179  ls
+  180  git clone https://github.com/shekarpour/SINA---Disambiguation.git
+  181  ls
+  182  git clone https://github.com/kulsingh/SINA-QueryGenerator.git
+  183  ls
+  184  git clone https://github.com/gmmazzeo/canali-core.git
+  185  git clone https://github.com/gmmazzeo/canali-web.git
+  186  ls
+  187  cd canali-core/
+  188  grep -ri main .
+  189  grep -ri main . | class
+  190  grep -ri main . | public
+  191  grep -ri main . | grep -ri public
+  192  cd ..
+  193  ls
+  194  ls
+  195  git clone https://github.com/AKSW/cubeqa.git
+  196  ls
+  197  cd cubeqa/
+  198  grep -ri main . | grep -ri public
+  199  pst
+  200  ps -al
+  201  JPS
+  202  JSP
+  203  java -jar /Volumes/Vyas-HD/office_fraunhofer/workspace/qanary_qa/qanary_pipeline-template/target/qa.pipeline-1.1.0.jar
+  204  java -jar /Volumes/Vyas-HD/office_fraunhofer/workspace/qanary_qa/qanary_pipeline-template/target/qa.pipeline-1.1.0.jar
+  205  java -jar /Volumes/Vyas-HD/office_fraunhofer/workspace/qanary_qa/qanary_pipeline-template/target/qa.pipeline-1.1.0.jar
+  206  java -jar /Volumes/Vyas-HD/office_fraunhofer/workspace/qanary_qa/qanary_pipeline-template/target/qa.pipeline-1.1.0.jar
+  207  ls
+  208  cd qanary_qa/
+  209  mvn clean install -DskipDockerBuild
+  210  mvn clean install -DskipDockerBuild
+  211  ls
+  212  rm -r qanary_component-TESTWRAP/
+  213  mvn clean install -DskipDockerBuild
+  214  mvn clean install -DskipDockerBuild
+  215  mvn clean install -DskipDockerBuild
+  216  ls
+  217  cd ~
+  218  ls
+  219  cd ~/m2/
+  220  cd ~/.m2/
+  221  ls
+  222  touch settings.xml
+  223  open -e settings.xml 
+  224  cat settings.xml 
+  225  ls
+  226  cd ..
+  227  cat ~/.m2/settings.xml
+  228  cat ~/.m2/archetype-catalog.xml 
+  229  cat ~/.m2/repository/ls
+  230  ls
+  231  git clone https://github.com/AKSW/AutoSPARQL.git
+  232  ls
+  233  cd AutoSPARQL/
+  234  ./compile
+  235  ./run 
+  236  ls
+  237  ls -al
+  238  mvn install -N
+  239  cd com
+  240  cd commons/
+  241  mvn install -N
+  242  mvn install -N
+  243  ls -al
+  244  cd ..
+  245  ls -al
+  246  ./createcompilelog 
+  247  clear
+  248  ./compile
+  249  officeWork
+  250  ls
+  251  git clone https://github.com/dice-group/NLIWOD.git
+  252  ls
+  253  cd NLIWOD/
+  254  ls
+  255  mvn clean deploy
+  256  grep -ri main .
+  257  grep -ri main *.java
+  258  grep -ri main --include \*.java
+  259  grep -ri a --include \*.java
+  260  grep -ri a --include .\*.java
+  261  grep -ri a --include *.java  .
+  262  grep -ri main --include *.java  .
+  263  grep -ri main --include *.java  . | grep -ri public 
+  264  claer
+  265  clear
+  266  grep -ri main --include *.java  . | grep -ri public 
+  267  grep -ri main --include *.java  . | grep -ri public 
+  268  ls
+  269  cd ..
+  270  officeWork 
+  271  ls
+  272  git clone https://github.com/pnancke/TeBaQA.git
+  273  ls
+  274  officeWork
+  275  ls
+  276  cd AutoSPARQL/
+  277  ls
+  278  ./compile 
+  279  ./run 
+  280  cd autosparql-tbsl/
+  281  mvn jetty:run
+  282  mvn jetty:run
+  283  clear
+  284  ls
+  285  cd ..
+  286  ls
+  287  cd AutoSPARQL/
+  288  ./run 
+  289  officeWork
+  290  ls
+  291  git clone https://github.com/brmson/yodaqa.git
+  292  cd yodaqa/
+  293  ls
+  294  ./gradlew check
+  295  echo | ./gradlew run
+  296  ./gradlew web -q
+  297  ./gradlew run  -q
+  298  ls
+  299  officeWork
+  300  git clone https://github.com/AskNowQA/AskNow.git
+  301  cd AskNow/
+  302  ls
+  303  cd src/
+  304  ls
+  305  cd main/
+  306  ls
+  307  cd resources/
+  308  ls
+  309  pyhton basic_server.py
+  310  python basic_server.py
+  311  pip install bottle
+  312  python basic_server.py
+  313  python basic_server.py
+  314  pip install requests
+  315  python basic_server.py
+  316  pip install gensim
+  317  python basic_server.py
+  318  python basic_server.py
+  319  atom basic_server.py
+  320  ls
+  321  cd ..
+  322  cd ..
+  323  cd ..
+  324  ls
+  325  mkdir models
+  326  cd models/
+  327  mkdir word2vec
+  328  ls
+  329  pwd
+  330  ls
+  331  cd word2vec/
+  332  pwd
+  333  cd ..
+  334  cd ..
+  335  ls
+  336  cd /src/main/resources/
+  337  cd ./src/main/resources/
+  338  ls
+  339  pyhon basic_server.py
+  340  python basic_server.py
+  341  python basic_server.py
+  342  ls
+  343  cd ..
+  344  ls
+  345  cd java/
+  346  ls
+  347  grep -ri "check for the phrase" --include=*.java .
+  348  ls
+  349  cd ..
+  350  ls
+  351  cd my_annotations/
+  352  ls
+  353  ls -al
+  354  cd train2014/
+  355  ls
+  356  ls -alt | grep -ri aug
+  357  ls -alt | grep -ri jul
+  358  ls -alt | grep -ri aug
+  359  ls -alt | grep -ri aug
+  360  cd ..
+  361  cd val2014/
+  362  ls
+  363  ls -alt | grep -ri aug
+  364  ls -alt | grep -ri aug 20
+  365  ls -alt | grep -ri "aug 20"
+  366  cat COCO_val2014_pairs_task_nr_2.txt 
+  367  cat COCO_val2014_pairs_task_nr_2.txt | wc
+  368  man wc
+  369  cat COCO_val2014_pairs_task_nr_2.txt | wc -l
+  370  cat COCO_val2014_pairs_task_nr_2.txt | wc -l
+  371  cat COCO_val2014_pairs_task_nr_2.txt | wc -l
+  372  cat COCO_val2014_pairs_task_nr_2.txt | wc -l
+  373  cat COCO_val2014_pairs_task_nr_2.txt | wc -l
+  374  cat COCO_val2014_pairs_task_nr_2.txt | wc -l
+  375  cat COCO_val2014_pairs_task_nr_2.txt | wc -l
+  376  cat COCO_val2014_pairs_task_nr_2.txt | wc -l
+  377  cat COCO_val2014_pairs_task_nr_2.txt | wc -l
+  378  cat COCO_val2014_pairs_task_nr_2.txt | wc -l
+  379  cat COCO_val2014_pairs_task_nr_2.txt | wc -l
+  380  cat COCO_val2014_pairs_task_nr_2.txt | wc -l
+  381  cat COCO_val2014_pairs_task_nr_2.txt | wc -l
+  382  cat COCO_val2014_pairs_task_nr_2.txt | wc -l
+  383  cat COCO_val2014_pairs_task_nr_2.txt | wc -l
+  384  cd..
+  385  cd ..
+  386  ls
+  387  cd train2014/
+  388  cat COCO_train2014_00000002014_pairs_task_nr_2.txt | wc -l
+  389  ls -alt | grep -ri "aug 20"
+  390  cat COCO_train2014_pairs_task_nr_2.txt | wc -l
+  391  cat COCO_train2014_pairs_task_nr_2.txt | wc -l
+  392  cat COCO_train2014_pairs_task_nr_2.txt | wc -l
+  393  cat COCO_train2014_pairs_task_nr_2.txt | wc -l
+  394  cat COCO_train2014_pairs_task_nr_2.txt | wc -l
+  395  cat COCO_train2014_pairs_task_nr_2.txt | wc -l
+  396  cat COCO_train2014_pairs_task_nr_2.txt 
+  397  cd ..
+  398  cd ..
+  399  cd PythonAPI/
+  400  python intra_class_annotation_pairs_check.py 
+  401  java -jar /Volumes/Vyas-HD/office_fraunhofer/workspace/qanary_qa/qanary_pipeline-template/target/qa.pipeline-1.1.0.jar
+  402  OfficeWork/
+  403  ls
+  404  officeWork
+  405  ls
+  406  cd qanary_qa/
+  407  ls
+  408  ls
+  409  cd ..
+  410  ls
+  411  cd ..
+  412  ls
+  413  ./stardog-4.1.3/bin/stardog-admin server start
+  414  rm /Volumes/Vyas-HD/office_fraunhofer/stardog-4.1.3/system.lock
+  415  ./stardog-4.1.3/bin/stardog-admin server start
+  416  ./stardog-4.1.3/bin/stardog-admin server stop
+  417  ls
+  418  ls
+  419  cd workspace/
+  420  ls
+  421  git clone https://github.com/dice-group/NLIWOD.git
+  422  ls
+  423  cd NLIWOD/
+  424  ls
+  425  grep -ri google .
+  426  grep -ri google . --include pom
+  427  grep -ri google . --include=pom
+  428  grep -ri google . --include=*pom*
+  429  atom ./qa.datasets/pom.xml
+  430  atom ./qa.hawk/pom.xml
+  431  atom ./qa.hawk/pom.xml
+  432  grep -ri lucene  . --include=*pom*
+  433  grep -ri gerbil  . --include=*pom*
+  434  grep -ri springframework  . --include=*pom*
+  435  grep -ri web  . --include=*pom*
+  436  grep -ri org.springframework  . --include=*pom*
+  437  clear
+  438  grep -ri org.springframework  . --include=*pom*
+  439  grep -ri jeena  . --include=*pom*
+  440  grep -ri jena  . --include=*pom*
+  441  grep -ri qa-commons.version  . --include=*pom*
+  442  grep -ri qa-commons.version  . --include=*pom*
+  443  cd ..
+  444  ls
+  445  cd annotation/
+  446  ls
+  447  mv install
+  448  mvn install
+  449  mvn install
+  450  mvn install
+  451  mvn install
+  452  mvn install
+  453  mvn install
+  454  mvn install
+  455  mvn install
+  456  mvn install
+  457  mvn install
+  458  mvn install
+  459  cd ..
+  460  ls
+  461  cd NLIWOD/
+  462  ls
+  463  ls
+  464  ls
+  465  cd ~
+  466  ls
+  467  cat ./.m2/repository/
+  468  cat ./.m2/repository/com/googlecode/json-simple/json-simple/la
+  469  ls
+  470  ls
+  471  cd ./.m2/repository/com/googlecode/json-simple/json-simple/
+  472  ls
+  473  ls
+  474  cd ..
+  475  ls
+  476  cd ..
+  477  cd ..
+  478  ls
+  479  cd google
+  480  ls
+  481  ls
+  482  cd OfficeWork
+  483  ls
+  484  cd OfficeWork/aug-sep-work/coco-master/PythonAPI/
+  485  python intra_class_annotation_pairs.py 
+  486  cd ..
+  487  ls
+  488  cd my_annotations/
+  489  ls
+  490  cd train2014/
+  491  ls
+  492  cat COCO_train2014_pairs_task_nr_2.txt | wc -l
+  493  cat COCO_train2014_pairs_task_nr_2.txt | wc -l
+  494  cat COCO_train2014_pairs_task_nr_2.txt | wc -l
+  495  cat COCO_train2014_pairs_task_nr_2.txt | wc -l
+  496  cat COCO_train2014_pairs_task_nr_2.txt | wc -l
+  497  officeWork
+  498  ls
+  499  cd qanary_qa/
+  500  ls
+  501  mvn archetype:generate        -DarchetypeGroupId=eu.wdaqua.qanary.component        -DarchetypeArtifactId=qanary_component-archetype        -DarchetypeVersion=0.1.1        -DgroupId=eu.wdaqua.qanary.component        -DartifactId=qanary_component-TESTWRAP1        -Dversion=0.1.0        -Dpackage=eu.wdaqua.qanary.testwrap1        -Dclassname=TestWrap1        -DinteractiveMode=false
+  502  mvn archetype:generate        -DarchetypeGroupId=eu.wdaqua.qanary.component        -DarchetypeArtifactId=qanary_component-archetype        -DarchetypeVersion=0.1.1        -DgroupId=eu.wdaqua.qanary.component        -DartifactId=qanary_component-TESTWRAP1        -Dversion=0.1.0        -Dpackage=eu.wdaqua.qanary.testwrap1        -Dclassname=TestWrap1        -DinteractiveMode=false
+  503  history >> 1.txt
