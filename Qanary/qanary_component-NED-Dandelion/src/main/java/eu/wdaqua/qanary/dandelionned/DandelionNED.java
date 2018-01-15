@@ -111,7 +111,7 @@ public class DandelionNED extends QanaryComponent {
 	    logger.info("Path {}", thePath);
 	      
 	    HttpClient httpclient = HttpClients.createDefault();
-	    HttpGet httpget = new HttpGet("https://api.dandelion.eu/datatxt/nex/v1/?text="+thePath+"&include=types%2Cabstract%2Ccategories&token=0990bd650d9545709da047537ff05a49");
+	    HttpGet httpget = new HttpGet("https://api.dandelion.eu/datatxt/nex/v1/?text="+thePath+"&include=types%2Cabstract%2Ccategories&token=<Insert Token Here>");
 	    //httpget.addHeader("User-Agent", USER_AGENT);
 	    HttpResponse response = httpclient.execute(httpget);
 	    try {

@@ -61,7 +61,6 @@ public class MeaningCloudNed extends QanaryComponent {
 		//String myQuestion = "Is Selwyn Lloyd the prime minister of Winston Churchill ?";
 		ArrayList<Selection> selections = new ArrayList<Selection>();
 		logger.info("Question {}", myQuestion);
-
 		 try {
 				File f = new File("questions.txt");
 		    	FileReader fr = new FileReader(f);
