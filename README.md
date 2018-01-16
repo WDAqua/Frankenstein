@@ -1,6 +1,5 @@
 # Welcome to the Frankenstein! 
-This repository contain all the reusable resources present in Frankenstein Architecture. 
-our experiment results and detailed description of how to use the resources within Frankenstein.This repository contain three
+This repository contain all the reusable resources present in Frankenstein Architecture, our experiment results and detailed description of how to use the resources within Frankenstein. This repository is maintained uder GPL 3.0 lisence agreement. Please see lisence.md for details. The repository contain three
 folders:
 ## Qanary 
 In this folder, all the 29 integrated components within Frankenstein is given as independent resources. The detailed instruction for how to run these components,
