@@ -3,7 +3,7 @@
 # Frankenstein reusable QA components integrated together following the Qanary Methodology
 ## Qanary in a Nutshell
 
-Qanary is a Methodology for Creating Question Answering Systems it is part of the [WDAqua project](http://wdaqua.informatik.uni-bonn.de) where question answering systems are researched and developed. Here, we are providing our key contributions on-top of the [RDF vocabulary qa](https://github.com/WDAqua/QAOntology) the reference implementation of the Qanary methodology. This repository contributes several sub-resources for Question Answring Community to build knowledge driven QA systems incorporating a standard [RDF vocabulary qa](https://github.com/WDAqua/QAOntology). All the resources are reusable. For detailed description of individual resources, kindly refer to Wiki section of this repository. In brief, the following sub-projects are available all aiming at establishing an ecosystem for question answering systems.
+Qanary is a Methodology for Creating Question Answering Systems it is part of the [WDAqua project](http://wdaqua.informatik.uni-bonn.de) where question answering systems are researched and developed. Here, we are providing our key contributions on-top of the [RDF vocabulary qa](https://github.com/WDAqua/QAOntology) the reference implementation of the Qanary methodology. This repository contributes several sub-resources for Question Answring Community to build knowledge driven QA systems incorporating a standard [RDF vocabulary qa](https://github.com/WDAqua/QAOntology) integrated with Frankenstein framrwork. All the resources are reusable. In brief, the following sub-projects are available all aiming at establishing an ecosystem for question answering systems.
 
  * [**Qanary Pipeline**](#qanarypipeline) implementation: a central component where components for question answering systems are connected automatically and can be called by Web UIs
  * Qanary component implementations: components providing wrappers to existing functionality or implement new question answering approaches
@@ -46,8 +46,9 @@ This component is to evaluate the components with QALD benchmark.
 
 
 <a name="qaldnerddataset"></a>
-### QALD annotated with named entities
-[source](https://github.com/WDAqua/Qanary/tree/master/ISWC-results)
+### Automatic Execution of QA pipelines and Components
+[source](https://github.com/WDAqua/Frankenstein/tree/master/Qanary/scripts/server-bash)
+In this sub-folder, Bash scripts are given to run the component, use these scripts. Go to the folder, there are saperate instruction to use these scripts as part of Frankenstein Evaluation resources.
 
 
 
