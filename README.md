@@ -2,12 +2,12 @@
 This repository contain all the reusable resources present in Frankenstein Architecture. 
 our experiment results and detailed description of how to use the resources within Frankenstein.This repository contain three
 folders:
-#Qanary 
+## Qanary 
 In this folder, all the 29 integrated components within Frankenstein is given as independent resources. The detailed instruction for how to run these components,
 how to include a newer component can be seen in a saperate read me file within the folder. 
 
 
-#Learning
+## Learning
 In this folder you will see Frankenstein learning module that learns from given features and f-score to select the best 
 component per task. This folder also contain another folder named Dataset, this folder contain our detailed results, 
 empirical study results etc.
