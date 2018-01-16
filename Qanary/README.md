@@ -1,6 +1,6 @@
 ![](https://raw.githubusercontent.com/WDAqua/Qanary/master/doc/logo-qanary_s.png)
 
-# A Reference Implementation for Creating Question Answering Systems following the Qanary Methodology
+# Frankenstein reusable QA components integrated together following the Qanary Methodology
 ## Qanary in a Nutshell
 
 Qanary is a Methodology for Creating Question Answering Systems it is part of the [WDAqua project](http://wdaqua.informatik.uni-bonn.de) where question answering systems are researched and developed. Here, we are providing our key contributions on-top of the [RDF vocabulary qa](https://github.com/WDAqua/QAOntology) the reference implementation of the Qanary methodology. This repository contributes several sub-resources for Question Answring Community to build knowledge driven QA systems incorporating a standard [RDF vocabulary qa](https://github.com/WDAqua/QAOntology). All the resources are reusable. For detailed description of individual resources, kindly refer to Wiki section of this repository. In brief, the following sub-projects are available all aiming at establishing an ecosystem for question answering systems.
@@ -10,8 +10,7 @@ Qanary is a Methodology for Creating Question Answering Systems it is part of th
    * a [**Qanary component template**](#qanarycomponenttemplate) implementation: use this to build you own component ([howto]()) as it provides [several features]()
     * a [**Qanary component XXX**](#qanarycomponenttemplate) Each folder with Qanary component prefix is an independent QA component. The detailed list of QA components can be seen in Component_List.csv file.
     
-  ##   
-  
+ 
   
 
 <a name="qanarypipeline"></a>
@@ -28,22 +27,13 @@ Qanary pipeline is the central component for using Qanary infrastructure. It reg
 
 <a name="qanarycomponenttemplate"></a>
 ### Qanary component template
- details follow soon.
+ Do you have excellant research which you want to include in Frankenstein? To add a new component in Frankenstein infrastructure in this repository, please see [source](https://github.com/WDAqua/Qanary/wiki)
+ 
 
 <a name="qanarylcevaluator"></a>
 ### Qanary LC-Evaluator
 Qanary LC-Evaluator is the evaluation component for evaluating any component present in Frankenstein Infrstructure.
 [source](https://github.com/WDAqua/Frankenstein/tree/master/Qanary/lcevaluator). The user need to change in two files. Go to resource folder in lcevaluator folder. Change in pipeline.csv and update the name of the component you want to execute. If you want to run a complete pipeline, please include components in a single line saperated by comma. In questions.csv file, update the list of questions/text you want to analyse or annotate using the Frankenstein components. Please assign unique ID to each question and your structure of each line in question.csv looks like: "QuestionID, your question text".
-
-
-
-
-
-
-
-
-
-
 
 ## Additional Resources
 
