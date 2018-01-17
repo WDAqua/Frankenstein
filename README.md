@@ -17,5 +17,5 @@ These 29 indegrated components given in Component_List.csv can be used to build 
 recognition components (NER), 9 Named entity Disambiguation (NED), 5 Relation Linker( RL), 2 Class Linker (CL), and 2 Query Builder(QB).
 We do not have benchmark for NER, and AGDISTIS NED tool need question and recognised entities as input so all 11 NER components are 
 used for creating input for AGDISTIS. Hence, logically it become 19 NED component, can be combined with 5 RL, 2 Cl, and 2 QB 
-components, resulting into 380 QA pipelines (19*5*2*2)
+components, resulting into 380 QA pipelines (19X5X2X2)
 
