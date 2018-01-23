@@ -66,7 +66,7 @@ For just running Frankenstein components using Qanary, here are detailed instutr
 
 ### Without docker
 
- * Clone the GitHub repository: `git clone https://github.com/WDAqua/Qanary`
+ * Clone the GitHub repository: `git clone https://github.com/WDAqua/Frankenstein`
 
  * Install Java 8 (see <http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html> for details)
 
