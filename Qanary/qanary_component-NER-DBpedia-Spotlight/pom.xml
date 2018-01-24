@@ -15,7 +15,7 @@
         <java.version>1.8</java.version>
         <qanary.version>[1.,2.)</qanary.version>
         <docker.image.prefix>qanary</docker.image.prefix>
-        <docker.image.name>dbpedia-spotlight-ner</docker.image.name>
+        <docker.image.name>qanary_component-ner-dbpedia-spotlight</docker.image.name>
     </properties>
 
     <dependencies>
