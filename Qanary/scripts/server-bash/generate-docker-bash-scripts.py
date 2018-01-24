@@ -19,24 +19,28 @@ with open(ifilename) as csvfile:
             components.update({row['NED'], row['Relation Linker'], row['Class Identifier'], row['Query Builder']})
 
 header = '#!/bin/bash'
-homefolder = 'QANARY=/qanarySetup/Applications/workspace/qanary_qa'
-stardogfolder = 'STARDOG=/qanarySetup/Applications/startdog/stardog-4.1.3'
-logfolder = 'QANARY_LOG=/qanarySetup/Applications/workspace/qanary_logs'
 for key in servers:
     lines = []
     lines.append(header + '\n')
-    lines.append(stardogfolder)
-    lines.append(homefolder)
-    lines.append(logfolder + '\n')
-    lines.append('# Start stardog')
-    lines.append('$STARDOG/bin/stardog-admin server start\n')
-    lines.append('# Start qa pipeline and qa components')
-    lines.append('rm $STARDOG/system.lock')
-    lines.append('nohup java -jar $QANARY/qanary_pipeline-template/target/qa.pipeline-1.1.0.jar &')
-    lines.append('sleep 10')
+    lines.append('docker stop $(docker ps -a -q) \n')
+    lines.append('docker rm $(docker ps -a -q) \n')
+    
+    lines.append('echo "Starting stardog container"')
+    lines.append('docker run -itd -v /data/qanary:/stardog-4.1.1/qanary -p 5820:4000 --net="host" --name stardog qanary/stardog \n')
+        
+    lines.append('echo "Starting qapipeline container"')
+    lines.append('docker run -itd -p 8080:5000 --net="host" --name qapipeline qanary/qa.pipeline \n')
+    
+    lines.append('sleep 10 \n')
+    
+    lines.append('echo "Creating qanary triple store"')
+    lines.append('docker exec -it stardog /bin/bash -c "./bin/stardog-admin db create -n qanary; exit" \n')
+    
+    
+    lines.append('echo "Starting services" \n')
     for c in servers[key]:
-        lines.append('nohup java -jar ' + '$QANARY/' + c + '/target/' + c + '-1.0.0.jar'+ ' 2>'+'$QANARY_LOG/'+ c+'.errorlog'+' 1>'+ '$QANARY_LOG/'+c+'.outlog' +' &')
-
+        lines.append('docker run -d -P --net="host" --name ' + c.lower() + ' -t qanary/' + c.lower())
+        
     filename = 'servers/server' + str(key) + '.sh'
     if not os.path.exists(os.path.dirname(filename)):
         try:

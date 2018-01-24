@@ -15,7 +15,7 @@
 	<properties>
 		<java.version>1.8</java.version>
 		<docker.image.prefix>qanary</docker.image.prefix>
-		<docker.image.name>qapipeline</docker.image.name>
+		<docker.image.name>qa.pipeline</docker.image.name>
 	</properties>
 
 	<dependencies>

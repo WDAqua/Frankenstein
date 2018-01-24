@@ -16,7 +16,7 @@
         <qanary.version>[1.,2.)</qanary.version>
         <docker.image.prefix>qanary</docker.image.prefix>
         <!-- Replace the name of the docker image to be generated -->
-        <docker.image.name>my-qanary-component</docker.image.name>
+        <docker.image.name>qanary_component-ner-ambiverse</docker.image.name>
     </properties>
 
     <dependencies>
