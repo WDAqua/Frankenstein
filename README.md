@@ -1,6 +1,6 @@
 # Welcome to the Frankenstein! 
 This repository contain all the reusable resources present in Frankenstein Architecture, and detailed description of how to use the resources within Frankenstein. This repository is maintained uder GPL 3.0 lisence agreement and submitted as resource track paper in ESWC 2018. Please see lisence.md for details. The repository contain two
-folders:
+folders (Please not, we have merged components describe in ESWC paper as evaluation components (Resource R2) in Qanary folder based on User's feedback for better ease of use. In original paper, the evaluation components supposed to be in Evaluation Folder). The two folders are:
 ## Qanary 
 In this folder, all the 29 integrated components within Frankenstein is given as independent resources. The detailed instruction for how to run these components,
 how to include a newer component can be seen in a saperate read me file within the folder. 
