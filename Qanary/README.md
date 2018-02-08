@@ -7,10 +7,10 @@ Qanary is a Methodology for Creating Question Answering Systems it is part of th
 
  * [**Qanary Pipeline**](#qanarypipeline) implementation: a central component where components for question answering systems are connected automatically and can be called by Web UIs
  * Qanary component implementations: components providing wrappers to existing functionality or implement new question answering approaches
-   * a [**Qanary component template**](#qanarycomponenttemplate) implementation: use this to build you own component ([howto]()) as it provides [several features]()
+   * a [**Qanary component template**](#qanarycomponenttemplate) implementation: use this to build you own component ([source](    
+ https://github.com/WDAqua/Qanary/wiki)) as it provides [several features](https://github.com/WDAqua/Qanary/wiki/Frequently-Asked-Questions)
     * a [**Qanary component XXX**](#qanarycomponenttemplate) Each folder with Qanary component prefix is an independent QA component. The detailed list of QA components can be seen in Component_List.csv file.
-    
- 
+
   
 
 <a name="qanarypipeline"></a>
