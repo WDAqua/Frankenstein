@@ -11,7 +11,41 @@ Qanary is a Methodology for Creating Question Answering Systems it is part of th
  https://github.com/WDAqua/Qanary/wiki)) as it provides [several features](https://github.com/WDAqua/Qanary/wiki/Frequently-Asked-Questions)
     * a [**Qanary component XXX**](#qanarycomponenttemplate) Each folder with Qanary component prefix is an independent QA component. The detailed list of QA components can be seen in Component_List.csv file.
 
-  
+## In a Nutshell: How to run the Qanary components required for the Frankenstein approach 
+
+### Step 1: Checkout the Qanary framework
+
+```
+git clone https://github.com/WDAqua/Qanary
+```
+
+### Step 2: Build the Qanary framework
+Switch to the new repository folder and execute the command
+```
+mvn -DskipDockerBuild install
+```
+or (if you like to skip the Docker image creation, then) use
+```
+mvn -DskipDockerBuild install
+```
+Now the Qanary components are locally installed. 
+
+### Step 3: Run the Qanary QA System 
+Start your triplestore. Run the Qanary pipeline component in the folder ``qanary_pipeline-template`` (JAR or Docker container).
+
+### Step 4: Build the Qanary Components in the Frankenstein folder
+Switch to the folder ``Frankenstein/Qanary`` and execute the command
+```
+mvn -DskipDockerBuild install
+```
+or (if you like to skip the Docker image creation, then) use
+```
+mvn -DskipDockerBuild install
+```
+Now, all components are available. You can start the ones you would like to test (or all of them). They will register themself to the running pipeline component. 
+
+*Note:* A longer description on how to create a QA pipeline with Qanary is available [here](https://github.com/WDAqua/Qanary/wiki/Demo:-How-to-Create-a-Question-Answering-System-capable-of-Analyzing-the-Question-%22What-is-the-real-name-of-Batman%3F%22).
+
 
 <a name="qanarypipeline"></a>
 ## Qanary Pipeline

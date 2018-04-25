@@ -6,7 +6,6 @@
   <version>0.1.0-SNAPSHOT</version>
   <packaging>pom</packaging>
   <modules>
-    <module>qanary_pipeline-template</module>
     <module>qanary_component-template</module>
     <module>qanary_component-ASR-kaldi</module>
     <module>qanary_component-LD-Shuyo</module>
@@ -40,7 +39,6 @@
     <module>qanary_component-QB-Sina</module>
     <module>qanary_component-TGΜM</module>
     <module>qanary_component-NED-Ambiverse</module>
-    
     <module>qanary_component-REL-RELNLIOD</module>
     <module>qanary_component-CLS-CLSNLIOD</module>
     <module>qanary_component-QB-SparqlExecuter</module>
