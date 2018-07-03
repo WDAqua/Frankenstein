@@ -9,7 +9,7 @@ Number,QA Task,QA Component Name (Best part: All work on DBpedia),Input,Output,,
 8,NER,DBpedia spotlight NER,question,entity spots,,-,
 9,NER,Stanford NER,question,entity spots,,-,
 10,NER,Ontotext,question,entity spots,,-,
-11,NER,ambiverse,question,entity spots,,-,API key needed
+11,NER,ambiverse (version 1.0 and 2.0 separately),question,entity spots,,-,API key needed
 Number,QA Task,QA Component Name (All work on DBpedia),Input,Output,,Information,Comments
 1,NED,OntotextNED,question,disambiguated URL of entities,,,
 2,NED,Babelfy,question,disambiguated URL of entities,,1000 calls per day for API,API key needed
@@ -19,7 +19,7 @@ Number,QA Task,QA Component Name (All work on DBpedia),Input,Output,,Information
 6,NED,DBpedia Spotling NED,question,disambiguated URL of entities,,-,
 7,NED,AGDISTIS ,"question, entities",disambiguated URL of entities,,-,
 8,NED,MeaningCloudNED,question,disambiguated URL of entities,,-,
-9,NED,Ambiverse,question,disambiguated URL of entities,,1 million calls ,API key needed
+9,NED,Ambiverse (version 1.0 and 2.0 separately),question,disambiguated URL of entities,,1 million calls ,API key needed
 Number,QA Task,QA Component Name (All work on DBpedia),Input,Output,,Information,Comments
 1,Relation Linker,ReMatch,question,disambiguated URL of DBpedia predicates,,-,-
 2,Relation Linker,Relation Matcher,question,disambiguated URL of DBpedia predicates,,-,-
@@ -27,10 +27,10 @@ Number,QA Task,QA Component Name (All work on DBpedia),Input,Output,,Information
 4,Relation Linker,RNLIWOD,question,disambiguated URL of DBpedia predicates,,-,-
 5,Relation Linker,Spot Property,question,disambiguated URL of DBpedia predicates,,-,
 Number,QA Task,QA Component Name (All work on DBpedia),Input,Output,,Information,
-1,Query Builder,SINA's query builder,"disambiguated URLs of entities, relation, class",List of SPARQL queries ,,,
-2,Query Builder,Ricardo's query builder,"disambiguated URLs of entities, relation, class",List of SPARQL queries ,,,
+1,Query Builder,SINA's QB,"disambiguated URLs of entities, relation, class",List of SPARQL queries ,,,
+2,Query Builder,NLIWOD QB,"disambiguated URLs of entities, relation, class",List of SPARQL queries ,,,
 Number,QA Task,QA Component Name (All work on DBpedia),Input,Output,,Information,
-1,Class Linker,OKBQA Class Identifer,question,disambiguated URL of Class, ,,
+1,Class Linker,OKBQA DM CLS,question,disambiguated URL of Class, ,,
 2,Class Linker,CLSNLIWOD,question,disambiguated URL of Class, ,,
 Number,QA Task,QA Component Name (All work on DBpedia),Input,Output,,Information,
 ,query executor,Simple query executor to get answers from DBpedia endpoints,SPARQL query,JSON containing answers for query,,,
