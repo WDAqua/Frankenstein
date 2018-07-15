@@ -2,10 +2,10 @@
 # Comment/uncomment the following code lines according to your needs
 
 # Stop all containers
-docker stop $(docker ps -a -q)
+#docker stop $(docker ps -a -q)
 
 # Delete all containers
-docker rm $(docker ps -a -q)
+#docker rm $(docker ps -a -q)
 # Delete all images
 # docker rmi $(docker images -q)
 
