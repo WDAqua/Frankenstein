@@ -1,3 +1,5 @@
+# :heavy_exclamation_mark: DEPRECATED repository for Qanary components, please see https://github.com/WDAqua/Qanary-question-answering-components for an up-to-date version of the Qanary components
+
 ![](https://raw.githubusercontent.com/WDAqua/Qanary/master/doc/logo-qanary_s.png)
 
 # Frankenstein reusable QA components integrated together following the Qanary Methodology
